@@ -7,7 +7,7 @@ if __name__ == '__main__':
     speaker_rate = 150
     speaker_volume = 1 # 0 (min) to 1 (max)
     initial_greeting = "Welcome to SightSense!"
-    id = "com.apple.voice.compact.en-ZA.Tessa" # select from available voice types offered by the machine
+    id = "english" # select from available voice types offered by the machine
     speaker(initial_greeting, speaker_rate, speaker_volume, id)
     pause_threshold = 1.5 # interval in seconds
     activation_phrase = "hello"
