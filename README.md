@@ -14,8 +14,14 @@ Update Ubuntu Packages:\
 `sudo apt-get update`\
 `sudo apt-get -y upgrade`
 
+Install PortAudio:\
+`sudo apt install portaudio19-dev`
+
 Install PyAudio:\
 `sudo apt-get install python3-pyaudio`
 
 Install Synthesizer:\
 `sudo apt-get install espeak -y`
+
+Install FLAC:\
+`sudo apt-get install flac`
